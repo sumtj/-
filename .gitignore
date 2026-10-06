@@ -1,0 +1,15 @@
+# Snipaste 运行时数据 —— 不应进入版本库
+#
+# history/  贴图历史（.sp0 / .sp1 / .sp2 私有格式，体积大且属个人截图数据）
+# splog.txt 运行日志（含本机路径、显示器信息、每次截图的坐标与尺寸）
+# crashes/  崩溃转储
+
+history/
+splog.txt
+crashes/
+
+# 通用忽略
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
